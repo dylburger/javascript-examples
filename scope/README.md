@@ -13,3 +13,8 @@ A variable declared with `var` _within_ a function is accessible only within tha
 For a very long time, this was the only way we could scope variables in JavaScript. But [ES6 changed that](https://www.sitepoint.com/es6-let-const/).
 
 [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) and `const` introduce a notion of block scope. Block scope allows the use of a variable only within the "block" in which it was defined. Anything between the `{` and `}` in JavaScript is a block. So functions are still blocks, but conditional statements are also blocks. Let's look at [`scope.js`](scope.js) to see some examples of this behavior.
+
+More references:
+
+* [https://docs.microsoft.com/en-us/scripting/javascript/advanced/variable-scope-javascript](https://docs.microsoft.com/en-us/scripting/javascript/advanced/variable-scope-javascript)
+* [https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript](https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript)
